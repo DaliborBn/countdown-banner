@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+.container {
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(0, 145, 94);
+    background-color: lightpink;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.time {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.time-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 216, 222);
+    width: 23%;
+    height: 6rem;
+}
+.time-box h3 {
+    font-size: 1.3rem;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 1rem;
+}
+.description h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.description h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.link {
+    border-bottom: 2px solid black;
+    font-size: 1.2rem;
+}
+.description a {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.description a:hover {
+    color: rgb(0, 145, 94);
+}
+.description p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    line-height: 1.4;
+}
+

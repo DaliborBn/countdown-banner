@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) {
+    .wrapper {
+        flex-direction: row;
+    }
+    .time {
+        padding: 0;
+        padding-left: 2rem;
+    }
+    .time-box h3 {
+        font-size: 1.6rem;
+    }
+    .description {
+        padding: 2rem 2rem 0 2rem;
+    }
+    .headings {
+        flex-direction: row;
+    }
+    .description h1 {
+        font-size: 2rem;
+        padding-right: 1rem;
+        font-weight: 700;
+    }
+    .description h2 {
+        font-size: 2rem;
+    }
+    .description p {
+        font-size: 1.1rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .description h1 {
+        font-size: 3.3rem;
+    }
+    .description h2 {
+        font-size: 3.3rem;
+    }
+    .link {
+        font-size: 1.6rem;
+    }
+    .description a {
+        font-size: 1.8rem;
+    }
+}
