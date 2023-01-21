@@ -43,6 +43,7 @@ body {
     background-color: rgb(253, 216, 222);
     width: 23%;
     height: 6rem;
+    line-height: 1;
 }
 .time-box h3 {
     font-size: 1.3rem;
@@ -95,4 +96,3 @@ body {
     margin-top: 1rem;
     line-height: 1.4;
 }
-
