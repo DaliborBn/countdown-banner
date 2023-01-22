@@ -17,16 +17,14 @@ body {
     height: 100%;
 }
 .container {
-    width: 100%;
-    height: auto;
-    border: 5px solid rgb(0, 145, 94);
-    background-color: lightpink;
-}
-.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(0, 145, 94);
+    background-color: lightpink;
 }
 .time {
     width: 100%;
