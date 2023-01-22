@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-    .wrapper {
+    .container {
         flex-direction: row;
     }
     .time {
