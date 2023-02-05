@@ -23,7 +23,6 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    border: 5px solid rgb(0, 145, 94);
     background-color: lightpink;
 }
 .time {
