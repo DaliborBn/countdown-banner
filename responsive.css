@@ -1,3 +1,9 @@
+@media screen and (min-width: 500px) {
+    .time-box h3 {
+        font-size: 1.6rem;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         flex-direction: row;
