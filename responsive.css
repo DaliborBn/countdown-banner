@@ -30,6 +30,9 @@
         padding-right: 1rem;
         font-weight: 700;
     }
+    h1::after {
+        top: -5px;
+    }
     .description h2 {
         font-size: 2rem;
     }
@@ -42,7 +45,7 @@
 }
 @media screen and (min-width: 900px) {
     .time {
-    padding-right: 3rem;
+    padding-right: 2.4rem;
     }
     .time-box {
         width: 10.5rem;
@@ -56,6 +59,9 @@
     }
     .description h1 {
         font-size: 2.3rem;
+    }
+    h1::after {
+        top: -8px;
     }
     .description h2 {
         font-size: 2.3rem;
@@ -85,6 +91,10 @@
     .description h1 {
         font-size: 3.2rem;
     }
+    h1::after {
+        font-size: 14px;
+        top: -12px;
+    }
     .description h2 {
         font-size: 3.2rem;
     }
@@ -109,6 +119,9 @@
     }
     .description h1 {
         font-size: 3.7rem;
+    }
+    h1::after {
+        top: -16px;
     }
     .description h2 {
         font-size: 3.7rem;
