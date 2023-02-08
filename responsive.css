@@ -1,22 +1,26 @@
-@media screen and (min-width: 500px) {
-    .time-box h3 {
-        font-size: 1.6rem;
-    }
-}
-
 @media screen and (min-width: 768px) {
     .container {
         flex-direction: row;
+        padding: 0 2rem;
+        max-width: 144rem;
+    }
+    .wrapper {
+        flex-direction: row;
+        width: auto;
     }
     .time {
         padding: 0;
-        padding-left: 2rem;
+        justify-content: flex-start;
     }
-    .time-box h3 {
-        font-size: 1.5rem;
+    .time-box h3:nth-child(1) {
+        font-size: 1.6rem;
+    }
+    .time-box h3:nth-child(2) {
+        font-size: 1.2rem;
     }
     .description {
-        padding: 2rem 2rem 0 2rem;
+        padding: 0;
+        padding-top: 2rem;
     }
     .headings {
         flex-direction: row;
@@ -32,15 +36,31 @@
     .description p {
         font-size: 1.1rem;
     }
+    .link, link a {
+        font-size: 1.4rem;
+    }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
+    .time {
+    padding-right: 3rem;
+    }
+    .time-box {
+        width: 10.5rem;
+        height: 7rem;
+    }
+    .time-box h3:nth-child(1) {
+        font-size: 2rem;
+    }
+    .time-box h3:nth-child(2) {
+        font-size: 1.6rem;
+    }
     .description h1 {
-        font-size: 3.3rem;
+        font-size: 2.3rem;
     }
     .description h2 {
-        font-size: 3.3rem;
+        font-size: 2.3rem;
     }
-    .link {
+    .link, link a {
         font-size: 1.6rem;
     }
     .description a {
@@ -48,5 +68,55 @@
     }
     .time-box h3 {
         font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .time-box {
+        width: 13rem;
+        height: 9rem;
+    }
+    .time-box h3:nth-child(1) {
+        font-size: 2.3rem;
+    }
+    .time-box h3:nth-child(2) {
+        font-size: 1.8rem;
+    }
+    .description h1 {
+        font-size: 3.2rem;
+    }
+    .description h2 {
+        font-size: 3.2rem;
+    }
+    .time {
+    padding-right: 4rem;
+    }
+    .link, link a {
+        font-size: 2.1rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .time-box {
+        width: 15rem;
+        height: 10rem;
+    }
+    .time-box h3:nth-child(1) {
+        font-size: 2.7rem;
+    }
+    .time-box h3:nth-child(2) {
+        font-size: 2rem;
+    }
+    .description h1 {
+        font-size: 3.7rem;
+    }
+    .description h2 {
+        font-size: 3.7rem;
+    }
+    .time {
+    padding-right: 5rem;
+    }
+    .description p {
+        font-size: 1.2rem;
     }
 }
