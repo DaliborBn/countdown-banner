@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -22,15 +22,23 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
     background-color: lightpink;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 .time {
     width: 100%;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
 }
 .time-box {
     display: flex;
@@ -38,12 +46,17 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgb(253, 216, 222);
-    width: 23%;
+    width: 8rem;
     height: 6rem;
     line-height: 1;
+    
 }
-.time-box h3 {
-    font-size: 1.3rem;
+.time-box h3:nth-child(1) {
+    font-size: 1.6rem;
+}
+
+.time-box h3:nth-child(2) {
+    font-size: 1.2rem;
 }
 .headings {
     display: flex;
@@ -71,6 +84,8 @@ body {
 }
 .link {
     border-bottom: 2px solid black;
+}
+.link, link a {
     font-size: 1.2rem;
 }
 .description a {
